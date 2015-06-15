@@ -19,6 +19,11 @@ public:
     
     //OSCメッセージの送信者
     ofxOscSender sender;
+    ofxOscReceiver receiver;
+    
+    ofPoint packPosition;
+    ofVec2f packSpeed;
+    bool packHere;
 };
 /*
  Open Sound Control (OSC) は、コンピュータやシンセサイザーや、
